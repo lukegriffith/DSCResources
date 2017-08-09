@@ -8,8 +8,9 @@ enum Ensure
 
 class xFileConfig
 {
-
+    [DSCProperty(Key)]
     [String] $Path
+
     [String] $Value
 
     [Ensure] $Ensure = [Ensure]::Present
