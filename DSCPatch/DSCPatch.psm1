@@ -8,7 +8,7 @@ class pFileConfig : xFileConfig {
     [Logger]$log
 
 
-    Logger() {
+    pFileConfig() {
         $this.log = [Logger]::new()
     }
 
