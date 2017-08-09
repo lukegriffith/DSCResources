@@ -33,3 +33,23 @@ class Logger {
     }
 
 }
+
+# import module cChoco/cChocoPackageInstall --- somehow.
+
+# Essentially a wrapper for the WMF4 DSC Resource commands.
+class pChocoPackageInstall {
+
+    <#
+        Parameters of resource
+
+    #>
+
+    [void]Set() {
+
+        # Patch logic
+
+        # Set-TargetResource < params>
+
+    }
+
+}
