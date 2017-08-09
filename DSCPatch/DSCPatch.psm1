@@ -7,6 +7,11 @@ class pFileConfig : xFileConfig {
 
     [Logger]$log
 
+
+    Logger() {
+        $this.log = [Logger]::new()
+    }
+
     Set()
     {
 
